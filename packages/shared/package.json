@@ -1,0 +1,18 @@
+{
+  "name": "shared",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "nats": "^2.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.2.2"
+  }
+}
